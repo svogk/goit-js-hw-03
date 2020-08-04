@@ -7,7 +7,7 @@ const products = [
   { name: 'Захват', price: 1200, quantity: 2 },
 ];
 
-const calculateTotalPrice = function(allProdcuts, productName) {
+const calculateTotalPrice = function (allProdcuts, productName) {
   let totalPrice;
   for (const product of allProdcuts) {
     if (product.name === productName) {
